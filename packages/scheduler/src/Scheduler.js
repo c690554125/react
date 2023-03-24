@@ -425,3 +425,6 @@ export const unstable_Profiling = enableProfiling
       stopLoggingProfilingEvents,
     }
   : null;
+
+// 添加代码：
+export const unstable_flushAllWithoutAsserting = () => {}
